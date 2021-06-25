@@ -1,0 +1,1 @@
+CREATE TABLE `local`.`images` ( `id` INT NOT NULL AUTO_INCREMENT , `image_path` VARCHAR(255) NOT NULL , `title` VARCHAR(50) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

@@ -1,0 +1,13 @@
+<html>
+<head>
+
+</head>
+<body>
+<div>
+{% for image in images %}
+<a href='{{ images_path }}/{{ image }}' target='_blank'><img src='{{ images_path }}/{{ image }}' title='{{ image }}' width='200'></a>
+{% endfor %}
+</div>
+</body>
+
+</html>
